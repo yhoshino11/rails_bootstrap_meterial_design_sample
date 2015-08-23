@@ -15,10 +15,14 @@ group :development, :test do
   gem 'better_errors'
   gem 'binding_of_caller'
   gem 'html2slim'
+
+  gem 'annotate'
+  gem 'rails-erd'
 end
 
 group :test do
   gem 'factory_girl_rails'
+  gem 'faker'
   gem 'database_cleaner'
   gem 'capybara'
   gem 'launchy'

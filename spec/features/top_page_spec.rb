@@ -6,9 +6,15 @@ RSpec.describe 'TOP', type: :feature, js: true do
   end
 
   context 'shows' do
+    let(:item) { create(:item) }
     it 'navigation bar' do
       visit root_path
       expect(page).to have_css('nav.navbar')
+    end
+
+    it 'all Items' do
+      visit root_path
+      expect(page).to have_text("#{item.title}")
     end
   end
 
