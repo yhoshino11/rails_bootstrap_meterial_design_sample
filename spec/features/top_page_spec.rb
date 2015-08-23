@@ -8,7 +8,7 @@ RSpec.describe 'TOP', type: :feature, js: true do
   context 'shows' do
     it 'navigation bar' do
       visit root_path
-      expect(page).to have_css('.nav')
+      expect(page).to have_css('nav.navbar')
     end
   end
 

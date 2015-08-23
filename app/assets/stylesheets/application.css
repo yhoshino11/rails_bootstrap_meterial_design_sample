@@ -3,7 +3,6 @@
  *= require bootstrap-material-design/dist/css/material-fullpalette.min
  *= require bootstrap-material-design/dist/css/material.min
  *= require bootstrap-material-design/dist/css/ripples.min
- *= require bootstrap-material-design/dist/css/roboto.min
  *= require_tree .
  *= require_self
  */
